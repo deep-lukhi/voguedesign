@@ -1,0 +1,58 @@
+.header {
+    background-color: #000;
+    box-shadow: 0 2px 7px whitesmoke;
+
+    .container {
+        .header1 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: space-between;
+        }
+
+        .logo {
+            img {
+                width: 100px;
+            }
+        }
+
+        .menu {
+            padding-top: 40px;
+
+
+            a {
+                color: white;
+                margin: 0 50px 0 0;
+
+
+                &:hover {
+                    text-shadow: 3px 3px 5px white;
+                    text-decoration: underline;
+                    transition: ease-in-out 1s;
+
+                }
+            }
+        }
+
+        .cart {
+            padding-top: 40px;
+            display: flex;
+            justify-content: flex-end;
+
+            a {
+                color: white;
+                margin: 0 30px 0 0;
+                font-size: 20px;
+
+                &:hover {
+                    font-size: 24px;
+                    transition: ease-in-out .5s;
+                }
+            }
+        }
+    }
+
+    &:hover {
+        box-shadow: 0 2px 7px red;
+        transition: ease-in-out 1s;
+    }
+}
