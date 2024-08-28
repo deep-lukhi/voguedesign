@@ -1,6 +1,4 @@
 .header {
-
-
     .container {
         .header1 {
             display: flex;
@@ -16,23 +14,18 @@
             }
 
             .menu {
-
-
                 @media (max-width:768px) {
                     display: none;
                 }
-
 
                 a {
                     color: white;
                     margin: 0 50px 0 0;
 
-
                     &:hover {
                         text-shadow: 3px 3px 5px white;
                         text-decoration: underline;
                         transition: ease-in-out 1s;
-
                     }
                 }
             }
@@ -40,21 +33,14 @@
             .slide {
                 display: none;
 
-
                 a {
                     color: white;
                     font-size: 20px;
-
                 }
 
                 @media (max-width:768px) {
-
                     display: block;
                 }
-
-
-
-
             }
 
             .cart {

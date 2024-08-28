@@ -1,6 +1,6 @@
 import React from 'react';
 import './herobanner.scss';
-import herobanner from '../../../assets/assets/herobanner.jpg'
+import herobanner from '../../../assets/images/herobanner.jpg'
 
 export default function Herobanner() {
     return (
@@ -14,7 +14,7 @@ export default function Herobanner() {
                     <div className="text">
                         <h1>Welcome To Vogue-DashClothing</h1>
                         <p>Where Style Meets Comfort</p>
-                        <button>Enjoy Your Shopping</button>
+
                     </div>
                 </div>
 
