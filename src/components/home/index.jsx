@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div>
             <Herobanner />
-            {/* <Section1 /> */}
+            <Section1 />
 
         </div>
     )
